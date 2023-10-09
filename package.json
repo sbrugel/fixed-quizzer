@@ -71,11 +71,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AidanTran/tasks.git"
+    "url": "git+https://github.com/sbrugel/fixed-quizzer.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AidanTran/tasks/issues"
+    "url": "https://github.com/sbrugel/fixed-quizzer/issues"
   }
 }
