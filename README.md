@@ -5,3 +5,5 @@ Hello! This repository has been pre-configured with eslint and gh-pages to autom
 ## For grader:
 
 Make sure to run `npm i` at first, since node_modules is ignored by default.
+
+This repo didn't come with a prettier file so some stuff might not conform with the prettier standards for the other tasks repo.
