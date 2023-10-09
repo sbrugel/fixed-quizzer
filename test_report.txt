@@ -1,0 +1,35 @@
+
+> tasks@0.1.0 test
+> react-scripts test --coverage
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+PASS src/quizzer/Quizzer.test.tsx
+PASS src/App.test.tsx
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   26.84 |    15.51 |   18.91 |   26.57 |                   
+ src               |   66.66 |       50 |      50 |   66.66 |                   
+  App.tsx          |   66.66 |       50 |      50 |   66.66 | 16                
+ src/interfaces    |       0 |        0 |       0 |       0 |                   
+  question.ts      |       0 |        0 |       0 |       0 |                   
+  quiz.ts          |       0 |        0 |       0 |       0 |                   
+ src/quizzer       |   26.02 |    12.96 |   18.05 |   25.71 |                   
+  AddQuizModal.tsx |   64.28 |      100 |      40 |   64.28 | 37-56             
+  QuestionEdit.tsx |    3.22 |        0 |       0 |    3.22 | 22-252            
+  QuizCard.tsx     |      80 |       80 |   66.66 |      80 | 25                
+  QuizEdit.tsx     |     3.7 |        0 |       0 |       4 | 22-161            
+  QuizExpanded.tsx |     3.7 |        0 |       0 |    3.84 | 20-105            
+  QuizList.tsx     |   72.72 |       75 |      60 |   72.72 | 18,22,43          
+  QuizQuestion.tsx |      10 |        0 |       0 |      10 | 23-62             
+  QuizView.tsx     |      20 |        0 |       0 |      20 | 19-25             
+  Quizzer.tsx      |      75 |        0 |      60 |   76.92 | 28-29,38          
+-------------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 2 passed, 2 total
+Tests:       3 passed, 3 total
+Snapshots:   0 total
+Time:        4.539 s
+Ran all test suites.
